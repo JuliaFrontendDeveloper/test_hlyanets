@@ -58,6 +58,9 @@ body {
 .btn_w286{
     width: 286px;
 }
+.btn_w444{
+    width: 444px;
+}
 .header_navbar_nav{
     align-items: center;
 }
@@ -212,4 +215,206 @@ p {
 }
 .block_product:hover .inform_menu{
     opacity: 1;
+}
+.text_bold{
+    font: 500 34px/125% 'Blogger Sans';
+    color: #1A202C;
+    margin-bottom: 10px;
+}
+.about_us_next{
+    position: absolute;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px rgba(142, 162, 170, 0.20);
+    width: 790px;
+    flex-shrink: 0;
+    padding: 60px 30px;
+    right: 0;
+}
+.section_assortiment_next {
+    padding: 0px 0px 150px 0px;
+}
+.contract_next{
+    color: #222222;
+    letter-spacing: 0.01em;
+    align-self: stretch;
+    margin-bottom: 20px;
+}
+.block_about_us_next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_main{
+    width: 1392px;
+    margin: 0 auto;
+}
+.h3_now {
+    font: 500 60px/125% 'Blogger Sans';
+    color: #1A202C;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.pd_wrapper {
+    text-align: center;
+}
+.choose_logo_img {
+    margin-bottom: 20px;
+}
+.text_top {
+    color: #1A202C;
+    font: 500 34px/125% 'Blogger Sans';
+    margin-bottom: 10px;
+}
+.text_choose {
+    color: #1A202C;
+    font: 400 20px/150% 'IProxima Nova';
+}
+.section_chain {
+    padding: 0px 0px 150px 0px;
+}
+.img_center{
+    margin-bottom: 20px;
+}
+.h3_white{
+    font: 500 60px/125% 'Blogger Sans';
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.section_order {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #000 -1.44%, rgba(0, 0, 0, 0.00) 18.67%), linear-gradient(90deg, #000 0.35%, rgba(0, 0, 0, 0.00) 50.92%), url('../img/img_17.jpg'), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.iform_order{
+    color: #fff;
+    text-align: center;
+    align-self: stretch;
+    margin-bottom: 61px;
+}
+.text_ib_inf{
+    font: 400 24px/130% 'Proxima Nova';
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.delivery{
+    color:#FFD324;
+}
+.container_1234{
+    width: 1234px;
+    margin: 0 auto;
+}
+.block_contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.what{
+    font: 400 20px/150% 'Proxima Nova';
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.data{
+    font: 400 24px/130% 'Proxima Nova';
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.form_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.input_box{
+    padding: 0 15px;
+    width: 38%;
+}
+.form_label{
+    font: 20px/30px 'Proxima Nova';
+    color: #ffffff;
+    opacity: 0.6;
+}
+.form_input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    height: 42px;
+    display: block;
+    font: 24px/24px 'Proxima Nova';
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.button_box{
+    width: 26%;
+}
+.btn_submit{
+    border: none;
+    width: 100%;
+}
+.banner_footer{
+    background: linear-gradient(180deg, #000 -1.44%, rgba(0, 0, 0, 0.00) 18.67%), linear-gradient(90deg, #000 0.35%, rgba(0, 0, 0, 0.00) 50.92%), url('../img/img_18.jpg'), lightgray 50% / cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+}
+.fc_contact_label{
+    font: 400 24px/130% 'Proxima Nova';
+    color: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+}
+.fc_contact_label li{
+    margin-bottom: 30px;
+}
+.footer_copyright{
+    font: 400 16px/125% 'Blogger Sans';
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.mg_30{
+    margin-bottom: 30px;
+}
+.icon{
+    padding-right: 5px;
+}
+.mb{
+    margin-bottom: 75px;
+}
+.block_colum{
+   display: flex;
+    flex-direction: column;
+}
+.modal_input {
+    width: 100%;
+    padding: 19px 12px;
+    letter-spacing: 0.4px;
+    font: 16px/18px 'Inter-Regular';
+    color: #929292;
+    background: #FCFCFC;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.fc_contact_label_tel{
+    display: flex;
+    font: 400 24px/130% 'Proxima Nova';
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.footer_nav_list li{
+    display: flex;
+}
+.fc_contact_label:hover{
+    color: #ffffff;
 }
